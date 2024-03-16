@@ -22,7 +22,7 @@ func main() {
 	traceRouteGroup.Use(middelwear.ProjectAuth())
 	traceRouteGroup.GET("", traceController.GetTraces)
 	traceRouteGroup.GET("/:id", traceController.GetTraceById)
-	traceRouteGroup.POST("", traceController.AddTrace)
+	traceRouteGroup.POST("", traceController.MapTrace)
 	// albumsRoute.PUT("/:id", albumController.UpdateAlbum)
 	// albumsRoute.DELETE("/:id", albumController.DeleteAlbum)
   }

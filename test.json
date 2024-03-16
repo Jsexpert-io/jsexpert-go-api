@@ -1,0 +1,628 @@
+{
+    "resourceSpans": [
+        {
+            "resource": {
+                "attributes": [
+                    {
+                        "key": "service.name",
+                        "value": {
+                            "stringValue": "jsexpert-client-api-caller-server"
+                        }
+                    },
+                    {
+                        "key": "telemetry.sdk.language",
+                        "value": {
+                            "stringValue": "nodejs"
+                        }
+                    },
+                    {
+                        "key": "telemetry.sdk.name",
+                        "value": {
+                            "stringValue": "opentelemetry"
+                        }
+                    },
+                    {
+                        "key": "telemetry.sdk.version",
+                        "value": {
+                            "stringValue": "1.21.0"
+                        }
+                    },
+                    {
+                        "key": "process.pid",
+                        "value": {
+                            "intValue": 106096
+                        }
+                    },
+                    {
+                        "key": "process.executable.name",
+                        "value": {
+                            "stringValue": "/home/neeraj/.nvm/versions/node/v20.11.0/bin/node"
+                        }
+                    },
+                    {
+                        "key": "process.executable.path",
+                        "value": {
+                            "stringValue": "/home/neeraj/.nvm/versions/node/v20.11.0/bin/node"
+                        }
+                    },
+                    {
+                        "key": "process.command_args",
+                        "value": {
+                            "arrayValue": {
+                                "values": [
+                                    {
+                                        "stringValue": "/home/neeraj/.nvm/versions/node/v20.11.0/bin/node"
+                                    },
+                                    {
+                                        "stringValue": "/home/neeraj/works/jsexper/jslib/jsexpert-client-api-caller/dist/index.js"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "key": "process.runtime.version",
+                        "value": {
+                            "stringValue": "20.11.0"
+                        }
+                    },
+                    {
+                        "key": "process.runtime.name",
+                        "value": {
+                            "stringValue": "nodejs"
+                        }
+                    },
+                    {
+                        "key": "process.runtime.description",
+                        "value": {
+                            "stringValue": "Node.js"
+                        }
+                    },
+                    {
+                        "key": "process.command",
+                        "value": {
+                            "stringValue": "/home/neeraj/works/jsexper/jslib/jsexpert-client-api-caller/dist/index.js"
+                        }
+                    },
+                    {
+                        "key": "process.owner",
+                        "value": {
+                            "stringValue": "neeraj"
+                        }
+                    }
+                ],
+                "droppedAttributesCount": 0
+            },
+            "scopeSpans": [
+                {
+                    "scope": {
+                        "name": "@opentelemetry/instrumentation-http",
+                        "version": "0.48.0"
+                    },
+                    "spans": [
+                        {
+                            "traceId": "bdc1bdfe5e99c71a886818d6beea3ad0",
+                            "spanId": "2c81f3006e47687a",
+                            "name": "GET /Start",
+                            "kind": 2,
+                            "startTimeUnixNano": "1710584477955000000",
+                            "endTimeUnixNano": "1710584500978949604",
+                            "attributes": [
+                                {
+                                    "key": "http.url",
+                                    "value": {
+                                        "stringValue": "http://localhost:3003/start"
+                                    }
+                                },
+                                {
+                                    "key": "http.host",
+                                    "value": {
+                                        "stringValue": "localhost:3003"
+                                    }
+                                },
+                                {
+                                    "key": "net.host.name",
+                                    "value": {
+                                        "stringValue": "localhost"
+                                    }
+                                },
+                                {
+                                    "key": "http.method",
+                                    "value": {
+                                        "stringValue": "GET"
+                                    }
+                                },
+                                {
+                                    "key": "http.scheme",
+                                    "value": {
+                                        "stringValue": "http"
+                                    }
+                                },
+                                {
+                                    "key": "http.target",
+                                    "value": {
+                                        "stringValue": "/start"
+                                    }
+                                },
+                                {
+                                    "key": "http.user_agent",
+                                    "value": {
+                                        "stringValue": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+                                    }
+                                },
+                                {
+                                    "key": "http.flavor",
+                                    "value": {
+                                        "stringValue": "1.1"
+                                    }
+                                },
+                                {
+                                    "key": "net.transport",
+                                    "value": {
+                                        "stringValue": "ip_tcp"
+                                    }
+                                },
+                                {
+                                    "key": "jsexpert.request.parameters",
+                                    "value": {
+                                        "stringValue": "{}"
+                                    }
+                                },
+                                {
+                                    "key": "http.status_code",
+                                    "value": {
+                                        "intValue": 200
+                                    }
+                                },
+                                {
+                                    "key": "http.status_text",
+                                    "value": {
+                                        "stringValue": ""
+                                    }
+                                },
+                                {
+                                    "key": "http.route",
+                                    "value": {
+                                        "stringValue": "/Start"
+                                    }
+                                }
+                            ],
+                            "droppedAttributesCount": 0,
+                            "events": [],
+                            "droppedEventsCount": 0,
+                            "status": {
+                                "code": 0
+                            },
+                            "links": [],
+                            "droppedLinksCount": 0
+                        },
+                        {
+                            "traceId": "4eeef95c8e3f4678128703a498a98808",
+                            "spanId": "1c6100e0fcd57819",
+                            "name": "GET *",
+                            "kind": 2,
+                            "startTimeUnixNano": "1710584501338000000",
+                            "endTimeUnixNano": "1710584503162954545",
+                            "attributes": [
+                                {
+                                    "key": "http.url",
+                                    "value": {
+                                        "stringValue": "http://localhost:3003/"
+                                    }
+                                },
+                                {
+                                    "key": "http.host",
+                                    "value": {
+                                        "stringValue": "localhost:3003"
+                                    }
+                                },
+                                {
+                                    "key": "net.host.name",
+                                    "value": {
+                                        "stringValue": "localhost"
+                                    }
+                                },
+                                {
+                                    "key": "http.method",
+                                    "value": {
+                                        "stringValue": "GET"
+                                    }
+                                },
+                                {
+                                    "key": "http.scheme",
+                                    "value": {
+                                        "stringValue": "http"
+                                    }
+                                },
+                                {
+                                    "key": "http.target",
+                                    "value": {
+                                        "stringValue": "/"
+                                    }
+                                },
+                                {
+                                    "key": "http.user_agent",
+                                    "value": {
+                                        "stringValue": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+                                    }
+                                },
+                                {
+                                    "key": "http.flavor",
+                                    "value": {
+                                        "stringValue": "1.1"
+                                    }
+                                },
+                                {
+                                    "key": "net.transport",
+                                    "value": {
+                                        "stringValue": "ip_tcp"
+                                    }
+                                },
+                                {
+                                    "key": "jsexpert.request.parameters",
+                                    "value": {
+                                        "stringValue": "{\"0\":\"/\"}"
+                                    }
+                                },
+                                {
+                                    "key": "net.host.ip",
+                                    "value": {
+                                        "stringValue": "::1"
+                                    }
+                                },
+                                {
+                                    "key": "net.host.port",
+                                    "value": {
+                                        "intValue": 3003
+                                    }
+                                },
+                                {
+                                    "key": "net.peer.ip",
+                                    "value": {
+                                        "stringValue": "::1"
+                                    }
+                                },
+                                {
+                                    "key": "net.peer.port",
+                                    "value": {
+                                        "intValue": 50760
+                                    }
+                                },
+                                {
+                                    "key": "http.status_code",
+                                    "value": {
+                                        "intValue": 200
+                                    }
+                                },
+                                {
+                                    "key": "http.status_text",
+                                    "value": {
+                                        "stringValue": "OK"
+                                    }
+                                },
+                                {
+                                    "key": "http.route",
+                                    "value": {
+                                        "stringValue": "*"
+                                    }
+                                }
+                            ],
+                            "droppedAttributesCount": 0,
+                            "events": [],
+                            "droppedEventsCount": 0,
+                            "status": {
+                                "code": 0
+                            },
+                            "links": [],
+                            "droppedLinksCount": 0
+                        }
+                    ]
+                },
+                {
+                    "scope": {
+                        "name": "@opentelemetry/instrumentation-express",
+                        "version": "0.34.1"
+                    },
+                    "spans": [
+                        {
+                            "traceId": "4eeef95c8e3f4678128703a498a98808",
+                            "spanId": "5f9607ab9d40acb4",
+                            "parentSpanId": "1c6100e0fcd57819",
+                            "name": "middleware - query",
+                            "kind": 1,
+                            "startTimeUnixNano": "1710584501338000000",
+                            "endTimeUnixNano": "1710584501338110476",
+                            "attributes": [
+                                {
+                                    "key": "http.route",
+                                    "value": {
+                                        "stringValue": "/"
+                                    }
+                                },
+                                {
+                                    "key": "express.name",
+                                    "value": {
+                                        "stringValue": "query"
+                                    }
+                                },
+                                {
+                                    "key": "express.type",
+                                    "value": {
+                                        "stringValue": "middleware"
+                                    }
+                                }
+                            ],
+                            "droppedAttributesCount": 0,
+                            "events": [],
+                            "droppedEventsCount": 0,
+                            "status": {
+                                "code": 0
+                            },
+                            "links": [],
+                            "droppedLinksCount": 0
+                        },
+                        {
+                            "traceId": "4eeef95c8e3f4678128703a498a98808",
+                            "spanId": "8380c2827abc2cc8",
+                            "parentSpanId": "1c6100e0fcd57819",
+                            "name": "middleware - expressInit",
+                            "kind": 1,
+                            "startTimeUnixNano": "1710584501339000000",
+                            "endTimeUnixNano": "1710584501339151219",
+                            "attributes": [
+                                {
+                                    "key": "http.route",
+                                    "value": {
+                                        "stringValue": "/"
+                                    }
+                                },
+                                {
+                                    "key": "express.name",
+                                    "value": {
+                                        "stringValue": "expressInit"
+                                    }
+                                },
+                                {
+                                    "key": "express.type",
+                                    "value": {
+                                        "stringValue": "middleware"
+                                    }
+                                }
+                            ],
+                            "droppedAttributesCount": 0,
+                            "events": [],
+                            "droppedEventsCount": 0,
+                            "status": {
+                                "code": 0
+                            },
+                            "links": [],
+                            "droppedLinksCount": 0
+                        },
+                        {
+                            "traceId": "4eeef95c8e3f4678128703a498a98808",
+                            "spanId": "b100a090b33928f1",
+                            "parentSpanId": "1c6100e0fcd57819",
+                            "name": "middleware - jsonParser",
+                            "kind": 1,
+                            "startTimeUnixNano": "1710584501339000000",
+                            "endTimeUnixNano": "1710584501339053736",
+                            "attributes": [
+                                {
+                                    "key": "http.route",
+                                    "value": {
+                                        "stringValue": "/"
+                                    }
+                                },
+                                {
+                                    "key": "express.name",
+                                    "value": {
+                                        "stringValue": "jsonParser"
+                                    }
+                                },
+                                {
+                                    "key": "express.type",
+                                    "value": {
+                                        "stringValue": "middleware"
+                                    }
+                                }
+                            ],
+                            "droppedAttributesCount": 0,
+                            "events": [],
+                            "droppedEventsCount": 0,
+                            "status": {
+                                "code": 0
+                            },
+                            "links": [],
+                            "droppedLinksCount": 0
+                        },
+                        {
+                            "traceId": "4eeef95c8e3f4678128703a498a98808",
+                            "spanId": "8a0f8b10be41db0e",
+                            "parentSpanId": "1c6100e0fcd57819",
+                            "name": "request handler - *",
+                            "kind": 1,
+                            "startTimeUnixNano": "1710584501339000000",
+                            "endTimeUnixNano": "1710584501339048809",
+                            "attributes": [
+                                {
+                                    "key": "http.route",
+                                    "value": {
+                                        "stringValue": "*"
+                                    }
+                                },
+                                {
+                                    "key": "express.name",
+                                    "value": {
+                                        "stringValue": "*"
+                                    }
+                                },
+                                {
+                                    "key": "express.type",
+                                    "value": {
+                                        "stringValue": "request_handler"
+                                    }
+                                }
+                            ],
+                            "droppedAttributesCount": 0,
+                            "events": [],
+                            "droppedEventsCount": 0,
+                            "status": {
+                                "code": 0
+                            },
+                            "links": [],
+                            "droppedLinksCount": 0
+                        },
+                        {
+                            "traceId": "59cac57c9cb3ae7717c49da56337c9d0",
+                            "spanId": "b702f9876a1a757c",
+                            "parentSpanId": "196acbf3febddbb5",
+                            "name": "middleware - query",
+                            "kind": 1,
+                            "startTimeUnixNano": "1710584503673000000",
+                            "endTimeUnixNano": "1710584503673065753",
+                            "attributes": [
+                                {
+                                    "key": "http.route",
+                                    "value": {
+                                        "stringValue": "/"
+                                    }
+                                },
+                                {
+                                    "key": "express.name",
+                                    "value": {
+                                        "stringValue": "query"
+                                    }
+                                },
+                                {
+                                    "key": "express.type",
+                                    "value": {
+                                        "stringValue": "middleware"
+                                    }
+                                }
+                            ],
+                            "droppedAttributesCount": 0,
+                            "events": [],
+                            "droppedEventsCount": 0,
+                            "status": {
+                                "code": 0
+                            },
+                            "links": [],
+                            "droppedLinksCount": 0
+                        },
+                        {
+                            "traceId": "59cac57c9cb3ae7717c49da56337c9d0",
+                            "spanId": "52ba0f1f1d7aec4b",
+                            "parentSpanId": "196acbf3febddbb5",
+                            "name": "middleware - expressInit",
+                            "kind": 1,
+                            "startTimeUnixNano": "1710584503673000000",
+                            "endTimeUnixNano": "1710584503673074380",
+                            "attributes": [
+                                {
+                                    "key": "http.route",
+                                    "value": {
+                                        "stringValue": "/"
+                                    }
+                                },
+                                {
+                                    "key": "express.name",
+                                    "value": {
+                                        "stringValue": "expressInit"
+                                    }
+                                },
+                                {
+                                    "key": "express.type",
+                                    "value": {
+                                        "stringValue": "middleware"
+                                    }
+                                }
+                            ],
+                            "droppedAttributesCount": 0,
+                            "events": [],
+                            "droppedEventsCount": 0,
+                            "status": {
+                                "code": 0
+                            },
+                            "links": [],
+                            "droppedLinksCount": 0
+                        },
+                        {
+                            "traceId": "59cac57c9cb3ae7717c49da56337c9d0",
+                            "spanId": "240612d76c9c76ab",
+                            "parentSpanId": "196acbf3febddbb5",
+                            "name": "middleware - jsonParser",
+                            "kind": 1,
+                            "startTimeUnixNano": "1710584503674000000",
+                            "endTimeUnixNano": "1710584503674043147",
+                            "attributes": [
+                                {
+                                    "key": "http.route",
+                                    "value": {
+                                        "stringValue": "/"
+                                    }
+                                },
+                                {
+                                    "key": "express.name",
+                                    "value": {
+                                        "stringValue": "jsonParser"
+                                    }
+                                },
+                                {
+                                    "key": "express.type",
+                                    "value": {
+                                        "stringValue": "middleware"
+                                    }
+                                }
+                            ],
+                            "droppedAttributesCount": 0,
+                            "events": [],
+                            "droppedEventsCount": 0,
+                            "status": {
+                                "code": 0
+                            },
+                            "links": [],
+                            "droppedLinksCount": 0
+                        },
+                        {
+                            "traceId": "59cac57c9cb3ae7717c49da56337c9d0",
+                            "spanId": "0c164689b00843a1",
+                            "parentSpanId": "196acbf3febddbb5",
+                            "name": "request handler - *",
+                            "kind": 1,
+                            "startTimeUnixNano": "1710584503674000000",
+                            "endTimeUnixNano": "1710584503674048958",
+                            "attributes": [
+                                {
+                                    "key": "http.route",
+                                    "value": {
+                                        "stringValue": "*"
+                                    }
+                                },
+                                {
+                                    "key": "express.name",
+                                    "value": {
+                                        "stringValue": "*"
+                                    }
+                                },
+                                {
+                                    "key": "express.type",
+                                    "value": {
+                                        "stringValue": "request_handler"
+                                    }
+                                }
+                            ],
+                            "droppedAttributesCount": 0,
+                            "events": [],
+                            "droppedEventsCount": 0,
+                            "status": {
+                                "code": 0
+                            },
+                            "links": [],
+                            "droppedLinksCount": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -28,4 +28,25 @@ type Trace struct {
 	CreatedAt               time.Time `ch:"createdAt"`
 	UpdatedAt               time.Time `ch:"updatedAt"`
 	Status                  string    `ch:"status"`
+	
+
+	// TraceId string `json:"traceId"`
+	// SpanId string `json:"spanId"`
+	// ParentSpanId string `json:"parentSpanId"`
+	// Name string `json:"name"`
+	// Kind int `json:"kind"`
+	// StartTimeUnixNano string `json:"startTimeUnixNano"`
+	// EndTimeUnixNano string `json:"endTimeUnixNano"`
+	// DroppedAttributesCount int `json:"droppedAttributesCount"`
+	// Events []interface{} `json:"events"`
+	// DroppedEventsCount int `json:"droppedEventsCount"`
+	// Attributes []Attribute `json:"attributes"`
+	// Status interface{} `json:"status"`
+	// Links []interface{} `json:"links"`
+	// ProjectId string `json:"projectId"`
+	// ScopeName string `json:"scopeName"`
+	// DroppedLinksCount int `json:"droppedLinksCount"`
+
 }
+
+
