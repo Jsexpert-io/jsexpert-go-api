@@ -26,5 +26,8 @@ func main() {
 	// albumsRoute.PUT("/:id", albumController.UpdateAlbum)
 	// albumsRoute.DELETE("/:id", albumController.DeleteAlbum)
   }
+  router.GET("/ping",func(c *gin.Context) {
+	c.JSON(200, gin.H{"status": "Healthy"})
+  })
   router.Run() // listen and serve on 0.0.0.0:8080 (for windows "localhost:8080")
 }
