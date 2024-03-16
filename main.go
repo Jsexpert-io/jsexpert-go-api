@@ -16,7 +16,7 @@ func main() {
   database.AutoMigrateModels()
   pprof.Register(router, "dev/pprof")
   
-  traceRouteGroup := router.Group("/trace") 
+  traceRouteGroup := router.Group("/v1/traces") 
   {
 
 	traceRouteGroup.Use(middelwear.ProjectAuth())
