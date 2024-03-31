@@ -3,7 +3,6 @@ package main
 import (
 	traceController "golangproject/controller"
 	"golangproject/database"
-	"golangproject/middelwear"
 
 	"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
@@ -19,7 +18,7 @@ func main() {
   traceRouteGroup := router.Group("/v1/traces") 
   {
 
-	traceRouteGroup.Use(middelwear.ProjectAuth())
+	//traceRouteGroup.Use(middelwear.ProjectAuth())
 	traceRouteGroup.GET("", traceController.GetTraces)
 	traceRouteGroup.GET("/:id", traceController.GetTraceById)
 	traceRouteGroup.POST("", traceController.MapTrace)

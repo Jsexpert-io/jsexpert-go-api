@@ -14,6 +14,7 @@ func SetupDatabase() (
 		// clickhouse://<user>:<password>@<host>:<port>/<database>?sslmode=disable
 		ch.WithDSN("clickhouse://64.227.137.36:9000/default?sslmode=disable"),
 	)
+
 	db.AddQueryHook(chdebug.NewQueryHook(
 		chdebug.WithVerbose(true),
 		chdebug.FromEnv("CHDEBUG"),

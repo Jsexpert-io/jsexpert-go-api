@@ -12,6 +12,7 @@ import (
 
 func GetTraces(c *gin.Context) {
 	db := databasech.SetupDatabase()
+	
 	var traces []trace.Trace
 	ctx := c.Request.Context()
 	projectId := c.MustGet("project").(string)
