@@ -1,0 +1,7 @@
+/.env
+/.env.*
+!/.env.example
+!/.env.docker.example
+
+# Local build outputs
+/jsexpert-go-api
